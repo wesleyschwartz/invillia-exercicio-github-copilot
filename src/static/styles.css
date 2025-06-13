@@ -142,3 +142,27 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Lista de participantes estilizada */
+.participants-list {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.participants-list li {
+  background: #e3eafc;
+  color: #1a237e;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 14px;
+  border: 1px solid #b3c6f7;
+  transition: background 0.2s;
+}
+
+.participants-list li:hover {
+  background: #c5d6fa;
+}
